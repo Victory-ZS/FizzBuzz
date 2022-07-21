@@ -5,10 +5,9 @@ public class FizzBuzz {
 
     public String countOff(int order){
         if(order % 3 == 0){
-            return "Fizz";
+            return FIZZ;
         }
         return String.valueOf(order);
-
     }
 
 
